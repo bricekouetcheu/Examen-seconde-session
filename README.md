@@ -6,3 +6,7 @@ Nous allons dans ce projet créer une plateforme qui permettra au personnel soig
 De plus, nous disposerons aussi des fichiers Js contenant des requêtes AJAX, des fichiers HTML et CSS.
 
 <p> bonjour</p>
+<ul>
+  <li>mama</li>
+  <li>mom</li>
+</ul>
