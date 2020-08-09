@@ -79,7 +79,11 @@ FONCTIONNALITES PRINCIPALES
                     </li>
                 </ol>
             </li>
-        </ol>
+        </ol><br><br>
+    <h2>MODELE RELATIONNEL</h2>
+        
+        
+      
         
         
         
