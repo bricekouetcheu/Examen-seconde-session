@@ -1,0 +1,118 @@
+
+body{
+    color: white;
+    font-family: arial;
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    
+    background-color: ;
+    
+  
+}
+
+
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.5);
+}
+
+nav ul
+{
+    list-style: none;
+    margin-right: 80px;
+    padding-right: 70px;
+    
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+      margin-top: 60px;
+     
+}
+
+nav ul li a {
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bolder;
+ 
+    
+}
+
+nav ul li a:hover{
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px;
+   
+}
+
+
+#formulaireVehicule{
+    text-align: center;
+    
+    
+     margin-top: 150px;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+fieldset{
+    background: #0000008a;
+    width: 700px;
+    margin-left: 25%;
+    margin-top: 25px;
+    padding-top: 25px;
+   
+}
+
+
+#formulaireVehicule label{
+    float: left;
+    position: relative;
+    font-size: 18px;
+    color: white;
+   margin-left: 15px;
+    padding-left: 0px;
+}
+
+input.formClass, select.formClass {
+    position: relative;
+   float: right;
+    top:-2px;
+    line-height: 20px;
+    border-radius: 6px;
+    padding-left: 50px;
+    margin-right: 100px;;
+    background-color: bisque;
+    
+}
+
+#boutonsubmit , #IdButtonRetour{
+    background-color: deepskyblue;
+    border: none;
+    border-radius: 5px;
+    font-size:15px;
+    font-weight: bold;
+    padding: 15px;
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5);
+    cursor: pointer;
+    outline: none;
+    margin-left: 20px;
+    color: white;
+}
+
+#boutonsubmit:hover ,#IdButtonRetour:hover{
+    transform: scale(1.1);
+}

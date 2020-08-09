@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+   <head>
+       <title>Accueil</title>
+       <meta charset="utf-8">
+       <link rel="stylesheet" type="text/css" href="css/index.css">
+        
+    </head> 
+    <body class="bodyclass" id="bodyid"> 
+        
+       
+        
+        <header class="headerclass" id="headerid">
+            
+            <nav>
+                <div class="logo">
+                
+                <ul>
+                    <li> <a class="active" href="http://localhost:300/page?url=index"> Acceuil</a></li>
+                    <li><a href="http://localhost:300/page?url=Location">Location</a></li>
+                    <li><a href="http://localhost:300/page?url=Vehicule"> Nouveau vehicule</a></li>
+                </ul>
+                  
+                
+                
+            </div>
+            </nav>
+        
+        </header>
+      
+       
+          <!fonctionnalité1>
+        
+        <div class="classmain"> 
+            
+             <div class=" fonctionnalite1">
+                 <div class="classDivForm">
+                         <form id="FormConsultation" class="">
+                  
+        <h2 id="">    GESTION DES LOCATIONS </h2>
+                <label for=""> Disponible</label>
+                <input type="radio" id="IdDisponible" name="disponibilité" class="FormClass1" value=1><br><br>
+                <label for=""> En cours de location </label>
+                <input type="radio" id="IdIndisponible" name="disponibilité" class="FormClass1" value=0><br><br>
+                
+                    <label for="categorie">Categorie</label>
+				<select id="IdCategorie" class="formClass1">
+					<option value = "cat01"> SUV </option>
+					<option value = "cat02"> sport </option>
+					<option value = "cat03"> utilitaire</option>
+					<option value = "cat04"> berline</option>
+					<option value = "cat05"> citadine</option>
+				</select><br><br><br>
+                
+            <input type="submit" id="idsubmit" value="CONSULTER"><br><br>
+                
+                
+            </form>
+                 </div>
+       
+            <div id="message1" class="classDivForm">
+            
+            </div> 
+                 
+            </div>
+           
+            
+            
+            
+            
+        <br><br><br><br>
+        
+        
+          <!fonctionnalité2>
+        
+        <div class='fonctionnalite2'>
+            <div class='classDiv2'>
+                <h2> Historique des Locations </h2>
+                <label> De:</label>
+                <input type="Date"  id="dateD2"class="" value="">
+                <label> A:</label>
+                <input type="Date" id="dateF2" value=""><br><br><br>
+            
+            <button id="buttonF2"> VOIR </button>
+            </div>
+
+            
+            <div id="message2" class='classDiv2'> </div>
+            
+        </div><br><br><br><br>
+        
+            
+          <!fonctionnalité3>
+        
+        <div class="fonctionnalite3">
+            <div class="classDiv3">
+                <h2> Historique des Locations par vehicules </h2>
+                    <label for="ChoixVehicule"> Listes vehicules</label>
+                        <select id="IdchoixVehicule"></select>
+                    <br><br><br>
+            
+             <button id="buttonF3"> VOIR </button>
+            
+            </div>
+            
+            <div id="message3"  class="classDiv3"> </div>
+            
+        </div><br><br>
+        
+        
+        
+             <!fonctionnalité4>
+        
+        <div class="fonctionnalite4">
+               <div class="classDiv4">
+                <h2> Vehicules les plus demandés </h2>
+              <label> De:</label>
+            <input type="Date"  id="dateD4"class="" value="">
+            <label> A:</label>
+             <input type="Date" id="dateF4" value=""><br><br><br>
+            
+            <button id="buttonF4"> VOIR </button>
+            
+                </div>
+            
+            
+            <div id="message4" class="classDiv4"> </div>
+            
+        </div><br><br><br><br>
+        
+        
+        <div class="fonctionnalite5">
+            
+            <div class="classDiv5"> 
+                <h2> chiffres d'affaire par categorie</h2>
+                <label> De:</label>
+                <input type="Date"  id="dateD5"class="" value="">
+                <label> A:</label>
+                <input type="Date" id="dateF5" value=""><br><br><br>
+            
+            
+            <button id="buttonF5"> VOIR </button>    
+            </div>
+           
+                <div id="message5" class="classDiv5"> </div>
+        </div><br><br><br><br>
+        
+          
+        <div class="fonctionnalite6">
+            <div class="classDiv6">
+                
+                <h2> meilleur rendement</h2>
+                
+                  <label> De:</label>
+            <input type="Date"  id="dateD6"class="" value="">
+            <label> A:</label>
+             <input type="Date" id="dateF6" value=""><br><br><br>
+            
+            
+                <button id="buttonF6"> VOIR </button>     
+            </div>
+
+                <div id="message6" class="classDiv6"> </div>
+        </div><br><br><br><br>
+        
+        </div>
+       
+         <script type="text/javascript" src="js/index.js">
+
+        
+        </script>
+      
+    </body>
+</html>

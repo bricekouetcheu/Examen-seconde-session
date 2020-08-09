@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title> Nouvelle location</title>
+        <link rel="stylesheet" type="text/css" href="css/Location.css">
+
+    </head>
+    <body id="BodyLocation" class="BodyLocationClass">     
+               
+        <header class="headerclass" id="headerid">
+            
+            <nav>
+                <div class="logo">
+                
+                <ul>
+                    <li> <a class="active" href="http://localhost:300/page?url=index"> Acceuil</a></li>
+                    <li><a href="http://localhost:300/page?url=Location">Location</a></li>
+                    <li><a href="http://localhost:300/page?url=Vehicule"> Nouveau vehicule</a></li>
+                </ul>
+                  
+                
+                
+            </div>
+            </nav>
+        
+        </header>
+                <div id="IdMain" class="ClassMain">
+        
+            <form id="formLocation">
+                
+                 <h2> NOUVELLE LOCATION</h2><br>
+                                                 
+                
+                <fieldset>  
+                    
+                   
+                    <div class="NumeroNationalClass">
+                                <!numero national>
+                            <label for="NumeroNational"> Numero National :  </label>
+                            <input id="IdNumeroNational" class="formLoclass" name="identifiant" type="text"><br><br>
+                    </div>
+                  
+                     <div class="NomClass">
+                         <!Nom>
+                            <label for="Nom"> Nom : </label>
+                            <input id="IdNom" class="formLoclass" name="Nom" type="text"><br><br>
+                    </div>
+                  
+                    <div class="PrenomClass">
+                              <!prenom>
+                            <label for="Prenom"> Prenom :</label>
+                            <input id="IdPrenom" class="formLoclass" name="Prenom" type="text"><br><br>
+                    </div>
+                  
+                    <div class="DateNaissanceClass">   
+                        <!Date de naissance>
+                        <label for="Prenom"> Date de naissance :</label>
+                        <input id="IdDateN" class="formLoclass" name="DateN" type="date" placeholder=""><br><br>
+                    </div>
+                  
+                    <div class="GsmClass"> 
+                    
+                         <!GSM>
+                       <label for="Prenom">Numero GSM :</label>
+                       <input id="IdGsm" class="formLoclass" name="Gsm" type="text"><br><br>
+                        
+                    </div> 
+                   
+                    <div class="AddresseClass"> 
+                                <!Addresse>
+                        <label for="Prenom"> Addresse :</label>
+                        <input id="IdAddresse" class="formLoclass" name="AddresseClient" type="text"><br><br>
+                    </div> 
+                    
+                     <div class="DateEmpruntClass"> 
+                      <!Date d'emprunt>
+                     <label for="Prenom"> Date d'emprunt :</label>
+                    <input id="IdDateLo" class="formLoclass" name="DateL" type="date"placeholder="" ><br><br>
+                    </div>
+                    
+                     <div class="DateRetourClass"> 
+                      <!Date de retour>
+                     <label for="Prenom"> Date de retour : </label>
+                    <input id="IdDateRe" class="formLoclass" name="DateR" type="date" placeholder="" ><br><br>
+                    </div>
+                        <!choix du vehicule>
+                    <div class="VehiculeClass" >
+                        <label for="ChoixVehicule"> Vehicules disponibles
+                        </label>
+                        <select id="IdchoixVehicule" class="formLoclass"></select>
+                    </div><br><br>
+                    
+                    
+                    
+                </fieldset><br>
+                
+                <input id="boutonsubmit" type="submit" value="ENREGISTRER">
+            </form><br><br><br><br>
+            
+            
+            <div class="RetourVehicule">  
+                <h2> RETOUR VEHICULE</h2>
+                <label for="idP"> Entrez le matricule du vehicule: </label>
+				<input id="ReturnId" class="returnclass" name="MatriculeRet" type="text" value="" required><br><br>
+                <button id="IdButtonRetour">CLIQUER</button>
+            </div>
+        </div>
+                
+    <script type="text/javascript" src="js/Location.js" >
+        </script>
+    </body>
+</html>
