@@ -1,5 +1,5 @@
 # Examen-seconde-session
-<h1><strong>Projet de fin d’année</strong> </h1><br><br>
+
 <p><strong>PRESENTATION DU PROJET</strong></p>
 <p>Nous allons dans ce projet créer une Application de gestion des Locations dans une agence de Location de véhicules</p>
 <p>Le système a réaliser devra proposer des fonctionnalités de gestion (Ajout d’un nouveau véhicules, ajout d’une nouvelle location et retour d’un véhicule de location)</p> <p>Outre les fonctionnalités de gestion l’application devra être capable de fournir aux utilisateurs des outils de consulting/reporting pour :</p>
